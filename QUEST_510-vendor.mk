@@ -14,6 +14,4 @@ PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/QUMO/QUEST_510/prop
 
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/QUMO/QUEST_510/proprietary/vendor,system/vendor)
 
-PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/QUMO/QUEST_510/proprietary/usr,system/usr)
-
 PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/QUMO/QUEST_510/proprietary/xbin,system/xbin)
